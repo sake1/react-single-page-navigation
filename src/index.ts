@@ -114,7 +114,7 @@ class IndexPage<T extends IElements> extends React.Component<
     }
 
     window.scrollTo({
-      top: scrollToPosition,
+      top: scrollToPosition - 135,
       behavior
     });
 
